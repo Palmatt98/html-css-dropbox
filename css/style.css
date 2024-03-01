@@ -4,15 +4,47 @@
 	box-sizing: border-box;
 }
 
+
+img{
+	max-width: 100%;
+}
+
+
+ul {
+	list-style-type: none;
+}
+
+
+
+a{
+	color: gray;
+	text-decoration: none;
+}
+
 body{
 	font-family: 'Open Sans', sans-serif;
 }
+
+
 /* HEADER */
+/* PARTE SUPERIORE */
+.flex{
+	display: flex;
+}
+
+
+.space-between{
+	justify-content: space-between;
+}
+
 
 .container-head{
-	height: 60px;
+	height: 50px;
 	width: 100%;
-	background-color: red;
+	/* debug */
+	padding-top: 10px;
+	background-color: white;
+	gap: 10px;
 	display: flex;
 	justify-content: space-between;
 	position: fixed;
@@ -21,18 +53,33 @@ body{
    z-index: 999;	
 	
 }
-.head-left, .head-right {
-	height: 60px;
-	width: 30%;
-	background-color: green;
-	
 
+
+.list-item, .list-item-2{
+	padding: 10px;
+	
+}
+
+
+.list-item-2:last-child{
+	background-color: rgb(39, 19, 221);
+	color: white;
+	
+}
+
+
+.head-left, .head-right {
+	min-height: 50px;
+	min-width: 30%;
+	justify-content: space-between;
+	
+	/* DEBUG */
 }
 
 .container2{
-	height: 50vh;
+	height: 100vh;
 	width: 100%;
-	background-color: rgb(27, 176, 221);
+	background-color: rgb(134, 200, 221);
 	display: flex;
 	justify-content: center;
 	margin-top: 60px;
@@ -40,18 +87,54 @@ body{
 }
 
 .big-square{
+	height: 40vh;
+	border: 1px solid black;
+	padding-top: 15px;
+	display: flex;
+	justify-content: center;
+}
+
+.wrap{
+	justify-content: center;
+}
+
+.img-1{
+	background-size: cover;
+}
+
+.title{
+	width: 100%;
+	height: 20vh;
+	font-size: 30px;
+	
+	
+}
+
+/* [class^="col"]{
+	min-height: 200px;
+	border: 1 solid black;
+} */
+
+.col-30{
+	width: 30%;
+	height: 50vh;
+}
+
+
+.col-70{
 	width: 70%;
 	height: 50vh;
-	background-color: orange;
-	margin-top: 15px;
+	background-image: url(../img/jumbo.png);
+	background-size: cover;
 }
+
 /* /HEADER */
 .container{
 	/* width: 100%;
 	height: 100%; */
 	display: flex;
 	justify-content: center;
-	margin-top: 30px ;
+	margin-top: 200px ;
 	border: 1px solid black;
 }
 .content-container-main{
@@ -157,3 +240,20 @@ body{
 	background-color: brown;
 	
 }
+.container-column{
+	min-height: 50vh;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	margin-top: 10px;
+}
+.item-col{
+	min-height: 30vh;
+	min-width: 150px;
+	background-color: gold;
+	margin-top: 10px;
+}
+/* FOOTER */
+
+/*/ FOOTER */
