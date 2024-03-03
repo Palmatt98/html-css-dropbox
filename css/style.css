@@ -16,7 +16,9 @@ ul {
 
 
 
-a{
+
+
+.first-a {
 	color: gray;
 	text-decoration: none;
 }
@@ -27,14 +29,25 @@ body{
 
 
 /* HEADER */
-/* PARTE SUPERIORE */
+/* UTILITIES */
 .flex{
 	display: flex;
 }
 
+.p-l-20{
+	padding-left: 30px;
+}
 
 .space-between{
 	justify-content: space-between;
+}
+
+.center{
+	justify-content: center;
+}
+
+.p-t-20{
+	padding-top: 20px;
 }
 
 
@@ -75,11 +88,16 @@ body{
 	
 	/* DEBUG */
 }
+.top-container{
+	display: flex;
+	justify-content: center;
+	background-color:  #b4d0e7;
+}
 
-.container2{
-	height: 100vh;
-	width: 100%;
-	background-color: rgb(134, 200, 221);
+.container-2{
+	height: 70vh;
+	width: 70%;
+	
 	display: flex;
 	justify-content: center;
 	margin-top: 60px;
@@ -88,53 +106,71 @@ body{
 
 .big-square{
 	height: 40vh;
-	border: 1px solid black;
 	padding-top: 15px;
 	display: flex;
 	justify-content: center;
+
+}
+
+
+
+.text-col-30{
+	padding-bottom: 20px;
 }
 
 .wrap{
 	justify-content: center;
 }
 
-.img-1{
-	background-size: cover;
+h1{
+	font-size: 75px;
+	padding-bottom: 20px;	
 }
 
 .title{
+	padding-top: 50px;
 	width: 100%;
 	height: 20vh;
-	font-size: 30px;
-	
+	;
 	
 }
 
-/* [class^="col"]{
-	min-height: 200px;
-	border: 1 solid black;
-} */
+
 
 .col-30{
 	width: 30%;
 	height: 50vh;
+
 }
 
 
 .col-70{
 	width: 70%;
-	height: 50vh;
+	height: 60vh;
 	background-image: url(../img/jumbo.png);
-	background-size: cover;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+.prova{
+	background-color: rgb(39, 19, 221);
+	padding: 10px;
+	color: white; 	
+	text-decoration:none;
+}
+
+.entieties{
+	font-size: 30px;
 }
 
 /* /HEADER */
-.container{
+.container-3{
 	/* width: 100%;
 	height: 100%; */
 	display: flex;
+	margin-top: 200px;
 	justify-content: center;
-	margin-top: 200px ;
 	border: 1px solid black;
 }
 .content-container-main{
@@ -143,24 +179,48 @@ body{
 	
 	
 }
+
+
 .col-purple{
 	width: 100%;
 	height: 80px;
-	background-color: purple;
+	
+	align-items: center;
+
 }
+
+.title-purple{
+	font-size: 40px;
+	
+}
+
+.radio{
+	margin: 20px 30px;
+}
+
+
 .column{
-	height: 50vh;
+	height: 100vh;
 	display: flex;
 	justify-content: space-between;
 	margin: 10px 0;
 	
+	
 }
+.button-col{
+
+	color: white;
+}
+
+
 .card{
 	min-height: 20vh;
 	width: 100%;
-	background-color: gray;
+
 	padding: 10px;
 }
+
+
 
 .blue-green{
 	height: 30vh;
@@ -169,22 +229,33 @@ body{
 	display: flex;
 }
 
+
+
 .blue{
 	width: 70%;
 	height: 100%;
 	background-color: blue;
+	background-image: ;
 }
+
+
 .green{
 	width: 30%;
 	height: 100%;
 	background-color: greenyellow;
 }
+
+
 .col{
 	width: calc(100% / 3);
 	height: 100%;
 	padding: 10px;
+	border: 1px solid;
+	margin: 10px;
 	
 }
+
+
 
 .column2{
 	display: flex;
@@ -192,11 +263,15 @@ body{
 	flex-wrap: wrap;
 }
 
+
+
 .low{
 	width: 70%;
 	height: 20vh;
 	background-color: blue;
 }
+
+
 
 .container-square{
 	height: 40vh;
@@ -205,28 +280,37 @@ body{
 	gap: 10px;
 }
 
+
+
 .section-square{
 	width: 100%;
 	height: 100%;
 	background-color: aqua;
 }
-.container-2{
+
+
+.container-4{
 	width: 100%;
 	min-height: 30vh;
 	background-color: bisque;
 	display: flex;
 	justify-content: center;
 }
+
+
 .orange{
 	width: 40%;
 	min-height: 20vh;
 	background-color: orange;
 }
+
+
 .pink{
 	width: 20%;
 	min-height: 20vh;
 	background-color: palevioletred;
 }
+
 
 .big-square-brown{
 	display: flex;
@@ -234,12 +318,15 @@ body{
 	margin-top: 10px;
 }
 
+
 .square-brown{
 	width: 50%;
 	min-height: 50vh;
 	background-color: brown;
 	
 }
+
+
 .container-column{
 	min-height: 50vh;
 	background-color: black;
@@ -248,6 +335,8 @@ body{
 	gap: 10px;
 	margin-top: 10px;
 }
+
+
 .item-col{
 	min-height: 30vh;
 	min-width: 150px;
