@@ -171,7 +171,7 @@ h1{
 	display: flex;
 	margin-top: 200px;
 	justify-content: center;
-	border: 1px solid black;
+
 }
 .content-container-main{
 	width: 50%;
@@ -183,15 +183,33 @@ h1{
 
 .col-purple{
 	width: 100%;
-	height: 80px;
-	
+	min-height: 80px;	
+	margin-top: 25px;
 	align-items: center;
+	border: 1px  solid ;
 
+}
+.team{
+	border: 1px solid;
+	padding: 10px;
 }
 
 .title-purple{
 	font-size: 40px;
 	
+}
+.cont-purple-70{
+	width: 70%;
+
+}
+
+
+.cont-purple-30{
+	margin-top: 30px;
+}
+
+.cont-purple-70, .cont-purple-30{
+	margin: 20px;
 }
 
 .radio{
@@ -204,16 +222,9 @@ h1{
 	display: flex;
 	justify-content: space-between;
 	margin: 10px 0;
-	
-	
+		
 }
-.button-col{
-
-	color: white;
-}
-
-
-.card{
+.card-1{
 	min-height: 20vh;
 	width: 100%;
 
@@ -221,37 +232,49 @@ h1{
 }
 
 
+.col-1{
+	width: calc(100% / 3);
+	height: 100%;
+	padding: 10px;
+	border: 1px solid;
+	margin: 10px;
+	
+}
+
+
+
+
 
 .blue-green{
-	height: 30vh;
+	height: 65vh;
 	width: 100%;
-	margin-top: 10px;
+	margin-top: 15px;
 	display: flex;
 }
 
 
 
 .blue{
-	width: 70%;
+	width: 100%;
 	height: 100%;
-	background-color: blue;
-	background-image: ;
+	background-image:url(../img/partner.png) ;
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
 
 .green{
-	width: 30%;
+	width: 40%;
 	height: 100%;
-	background-color: greenyellow;
+	padding-top: 50px ;
+	padding-left: 30px;
 }
 
-
-.col{
-	width: calc(100% / 3);
-	height: 100%;
+.link-partner{
+	border: 1px solid black;
+	text-decoration: none;
+	color: black;
 	padding: 10px;
-	border: 1px solid;
-	margin: 10px;
 	
 }
 
@@ -264,17 +287,35 @@ h1{
 }
 
 
+.card-2{
+	min-height: 20vh;
+	width: 100%;
+	padding: 10px;
+}
+
+
+.col-2{
+	padding: 10px;
+	margin: 10px;
+	width: calc(100%/4);
+	
+}
+
+
 
 .low{
-	width: 70%;
+	width: 50%;
 	height: 20vh;
-	background-color: blue;
+	margin-top:200px;
+}
+.title-low{
+	font-size: 30px;
 }
 
 
 
 .container-square{
-	height: 40vh;
+	min-height: 40vh;
 	display: flex;
 	justify-content: space-between ;
 	gap: 10px;
@@ -283,16 +324,22 @@ h1{
 
 
 .section-square{
-	width: 100%;
 	height: 100%;
 	background-color: aqua;
+
+}
+
+.square{
+	height: 25%;
+	width: calc(100% /2);
+	
 }
 
 
 .container-4{
 	width: 100%;
 	min-height: 30vh;
-	background-color: bisque;
+	background-color: #b4d0e7;
 	display: flex;
 	justify-content: center;
 }
@@ -301,14 +348,29 @@ h1{
 .orange{
 	width: 40%;
 	min-height: 20vh;
-	background-color: orange;
+	/* debug */
+	/* background-color: orange; */
+	align-items: center;
+}
+
+.text-orange{
+	font-size: 30px;
 }
 
 
 .pink{
 	width: 20%;
 	min-height: 20vh;
-	background-color: palevioletred;
+	align-items: center;
+}
+
+.link-pink {
+	border: 1px solid black;
+	background-color: white;
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	
 }
 
 
@@ -320,9 +382,11 @@ h1{
 
 
 .square-brown{
-	width: 50%;
+	padding-top: 20px;
+	width: 60%;
 	min-height: 50vh;
-	background-color: brown;
+	/* DEBUG */
+	/* background-color: brown; */
 	
 }
 
@@ -340,8 +404,14 @@ h1{
 .item-col{
 	min-height: 30vh;
 	min-width: 150px;
-	background-color: gold;
+	/* DEBUG */
+	/* background-color: gold; */
 	margin-top: 10px;
+}
+
+.ultimate-list > li{
+	padding: 15px;
+	color: white;
 }
 /* FOOTER */
 
