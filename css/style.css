@@ -180,7 +180,7 @@ h1{
 	
 }
 
-
+/* MAIN */
 .col-purple{
 	width: 100%;
 	min-height: 80px;	
@@ -389,8 +389,9 @@ h1{
 	/* background-color: brown; */
 	
 }
+/* /MAIN */
 
-
+/* FOOTER */
 .container-column{
 	min-height: 50vh;
 	background-color: black;
@@ -413,6 +414,6 @@ h1{
 	padding: 15px;
 	color: white;
 }
-/* FOOTER */
+
 
 /*/ FOOTER */
